@@ -1,76 +1,58 @@
-# SQUAD62_PAUL_CAPSTONE_SMARTDHAN
-# 💰 SMART DHAN – Financial Literacy & Awareness Platform
+# 💰 SMART DHAN – Financial Awareness & Learning Platform
 
-**SMART DHAN** is an educational web platform that empowers individuals to take control of their finances by delivering easy-to-understand financial knowledge in the form of short capsules. It aims to bridge the gap between everyday people and the complex world of personal finance by offering reliable, accessible, and practical information.
+SMART DHAN is a simple, user-friendly web application built to teach users how to **save** and **grow** their money using trusted Indian financial methods like Mutual Funds, FDs, PPF, and more.
 
-This platform is especially targeted toward individuals in India, catering to all age groups — students, working professionals, homemakers, and retirees — helping them learn how to **save money smartly** and **grow their wealth** over time.
-
----
-
-## 🌍 Vision
-
-Our mission is to improve financial literacy in India through bite-sized digital education, and connect users with experts who can help them make informed financial decisions.
-
-SMART DHAN aspires to become a one-stop platform for:
-
-- Learning personal finance concepts
-- Exploring investment options
-- Finding the right financial advisors
-- Taking early steps toward long-term financial health
+It offers bite-sized knowledge capsules and connects users with relevant experts when they’re ready to take action.
 
 ---
 
-## 📘 Core Features
+## 🚀 Project Idea
 
-- 🎯 **Capsule-Based Learning**  
-  Learn core financial topics like:
-  - Mutual Funds  
-  - Fixed Deposits  
-  - Public Provident Fund (PPF)  
-  - Insurance  
-  - Stock Market Basics  
-  - Government Schemes
+SMART DHAN helps users:
 
-- 👨‍🏫 **Expert Connect System**  
-  After learning, users can reach out to domain-specific experts via the platform to take actionable steps.
+- Learn basic financial concepts in 2–5 minute capsules
+- Discover various saving and investment options
+- Connect with domain experts (mutual funds, banking, etc.)
+- Access video explainers (planned for later)
 
-- 📺 **Video Resources (Planned)**  
-  Each capsule may include short video content for those who prefer visual learning.
-
-- 🧠 **Beginner-Friendly Interface**  
-  Designed to reduce complexity and avoid jargon. Anyone can start learning with zero background.
+This project is built using React (frontend), and a backend stack will follow.
 
 ---
 
-## 🔧 Tech Stack
+## 📅 Capstone Timeline (Day-by-Day Plan)
 
-- **Frontend**: React.js, React Router
-- **Styling**: Tailwind CSS (or CSS Modules)
-- **Backend (Planned)**: Node.js + Express / Django / Flask
-- **Database (Planned)**: MongoDB or PostgreSQL
-- **Authentication (Planned)**: JWT, Google OAuth
+**Day 1**
+- Finalize core idea
+- Create GitHub repo + setup project board
+- Add README with day plan
+- Build low-fidelity wireframe (done)
 
----
+**Day 2**
+- Plan backend data models
+- Create high-fidelity design in Figma or AI tool
+- Define main API routes (GET, POST, etc.)
 
-## 🚧 Current Project Status
+**Day 3**
+- Initialize React frontend app
+- Set up file/folder structure
+- Push to GitHub and track setup
 
-The project is currently in **active development**, with the frontend being prioritized first. The design flow includes:
+**Day 4–5**
+- Build static capsule pages and expert list
+- Implement React routing
+- Basic component styling
 
-- ✅ Low-fidelity design completed
-- 🔄 High-fidelity UI to be created post-skeleton development
-- 🚧 Backend and API planning underway
-- 🔜 Authentication, file uploads, and expert contact system in queue
+**Day 6–7**
+- Setup backend with Express/Django
+- Build and test GET, POST APIs
+- Link frontend and backend
 
----
+**Day 8–10**
+- Add expert connect, capsule detail, and video pages
+- Add authentication (Google login + JWT)
+- Improve UX/UI polish
 
-## 🤝 Contributions & Collaboration
-
-SMART DHAN is open for contributors — whether you are a developer, designer, finance educator, or just someone passionate about financial literacy.
-
-Pull requests, issue discussions, and new ideas are always welcome!
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
+**Final Days**
+- Submit working build
+- Review feedback
+- Record final video demo
