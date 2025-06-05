@@ -1,78 +1,72 @@
-💰 SMART DHAN – Financial Awareness & Learning Platform
-SMART DHAN is a simple, user-friendly web application built to help users learn how to save, invest, and grow their money using reliable Indian financial instruments like Mutual Funds, Fixed Deposits (FDs), Public Provident Fund (PPF), and more.
+# 💰 SMART DHAN – Financial Awareness & Learning Platform
+
+SMART DHAN is a simple, user-friendly web application designed to help users learn how to save, invest, and grow their money using reliable Indian financial instruments like Mutual Funds, Fixed Deposits (FDs), Public Provident Fund (PPF), and more.
 
 It delivers bite-sized learning capsules that make financial literacy simple and accessible — perfect for beginners and young earners in India.
 
-🚀 Project Idea
-SMART DHAN enables users to:
+---
 
-Learn key financial concepts in 2–5 minute capsule cards
+## 🚀 What SMART DHAN Does
 
-Explore trusted Indian saving & investment methods
+- Provides short, 2–5 minute capsule cards to learn key financial concepts  
+- Explores trusted Indian saving & investment methods  
+- Offers visual and text-based explainers  
+- Enables easy browsing of financial strategies through a clean interface  
+- Prepares users for real-world money management without overwhelming content  
+- **User authentication for personalized experience and progress tracking**
 
-Access visual and text-based explainers
+---
 
-Browse financial strategies easily through a clean interface
+## 🛠 Tech Stack
 
-Prepare for real-world money management without overwhelming content
+- **Frontend:** React  
+- **Backend:** Node.js + Express (REST API)  
+- **Database:** MongoDB (for user data and capsule progress)  
+- **Authentication:** JWT-based user authentication  
+- **Stack:** MERN (MongoDB, Express, React, Node.js)
 
-The app is built using React (frontend). Backend integration is optional and can be added later.
+---
 
-📅 Capstone Timeline (Day-by-Day Plan – 7 Days)
-Day 1
+## 📅 Project Timeline (7-Day Plan)
 
-Finalize the project idea + capsule topics
+**Day 1**  
+- Finalize project idea and capsule topics  
+- Set up GitHub repository and add README  
+- Create GitHub Project board with To Do / In Progress / Done columns  
+- Design low-fidelity wireframe (completed)  
 
-Set up GitHub repo, add README
+**Day 2**  
+- Create high-fidelity design (using Figma or AI tool)  
+- Plan capsule content layout and data schema  
+- Decide on backend architecture for authentication and user data  
 
-Create GitHub Project board (To Do / In Progress / Done)
+**Day 3**  
+- Initialize React app (Vite or Create React App)  
+- Set up backend Node.js + Express server  
+- Set up MongoDB database connection  
+- Basic folder structure for frontend and backend  
 
-Design low-fidelity wireframe (done)
+**Day 4**  
+- Implement user authentication: Signup, Login, JWT token handling  
+- Build protected routes on frontend and backend  
+- Build Homepage and Capsule List Page  
 
-Day 2
+**Day 5**  
+- Build Capsule Detail Page (static or local JSON content)  
+- Add user progress tracking and save to backend  
+- Polish UI for responsiveness  
 
-Create high-fidelity design (via Figma or AI tool)
+**Day 6**  
+- Add video/image placeholders for capsules  
+- Implement interactive learning flow (buttons, navigation)  
+- Improve overall styling  
 
-Plan capsule content layout
+**Day 7**  
+- Final testing and review  
+- Record final walkthrough video  
+- Submit project with GitHub link  
 
-Decide on data structure (Capsule objects, categories)
+---
 
-Day 3
+Feel free to contribute or suggest improvements!
 
-Initialize React app (Vite or CRA)
-
-Set up basic folder structure (/components, /pages, /assets)
-
-Push setup to GitHub with project tracking
-
-Day 4
-
-Build Homepage and Capsule List Page
-
-Display capsule topics like Mutual Funds, FDs, etc.
-
-Implement routing with React Router
-
-Day 5
-
-Build Capsule Detail Page (static content or local JSON)
-
-Add info cards or flashcards per topic
-
-Polish UI for responsiveness
-
-Day 6
-
-Add video/image placeholders for each capsule
-
-Add interactive learning flow (buttons, navigation)
-
-Improve overall styling
-
-Day 7
-
-Final testing + review
-
-Record final walkthrough video
-
-Submit project with GitHub link
