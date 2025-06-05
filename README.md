@@ -1,58 +1,78 @@
-# 💰 SMART DHAN – Financial Awareness & Learning Platform
+💰 SMART DHAN – Financial Awareness & Learning Platform
+SMART DHAN is a simple, user-friendly web application built to help users learn how to save, invest, and grow their money using reliable Indian financial instruments like Mutual Funds, Fixed Deposits (FDs), Public Provident Fund (PPF), and more.
 
-SMART DHAN is a simple, user-friendly web application built to teach users how to **save** and **grow** their money using trusted Indian financial methods like Mutual Funds, FDs, PPF, and more.
+It delivers bite-sized learning capsules that make financial literacy simple and accessible — perfect for beginners and young earners in India.
 
-It offers bite-sized knowledge capsules and connects users with relevant experts when they’re ready to take action.
+🚀 Project Idea
+SMART DHAN enables users to:
 
----
+Learn key financial concepts in 2–5 minute capsule cards
 
-## 🚀 Project Idea
+Explore trusted Indian saving & investment methods
 
-SMART DHAN helps users:
+Access visual and text-based explainers
 
-- Learn basic financial concepts in 2–5 minute capsules
-- Discover various saving and investment options
-- Connect with domain experts (mutual funds, banking, etc.)
-- Access video explainers (planned for later)
+Browse financial strategies easily through a clean interface
 
-This project is built using React (frontend), and a backend stack will follow.
+Prepare for real-world money management without overwhelming content
 
----
+The app is built using React (frontend). Backend integration is optional and can be added later.
 
-## 📅 Capstone Timeline (Day-by-Day Plan)
+📅 Capstone Timeline (Day-by-Day Plan – 7 Days)
+Day 1
 
-**Day 1**
-- Finalize core idea
-- Create GitHub repo + setup project board
-- Add README with day plan
-- Build low-fidelity wireframe (done)
+Finalize the project idea + capsule topics
 
-**Day 2**
-- Plan backend data models
-- Create high-fidelity design in Figma or AI tool
-- Define main API routes (GET, POST, etc.)
+Set up GitHub repo, add README
 
-**Day 3**
-- Initialize React frontend app
-- Set up file/folder structure
-- Push to GitHub and track setup
+Create GitHub Project board (To Do / In Progress / Done)
 
-**Day 4–5**
-- Build static capsule pages and expert list
-- Implement React routing
-- Basic component styling
+Design low-fidelity wireframe (done)
 
-**Day 6–7**
-- Setup backend with Express/Django
-- Build and test GET, POST APIs
-- Link frontend and backend
+Day 2
 
-**Day 8–10**
-- Add expert connect, capsule detail, and video pages
-- Add authentication (Google login + JWT)
-- Improve UX/UI polish
+Create high-fidelity design (via Figma or AI tool)
 
-**Final Days**
-- Submit working build
-- Review feedback
-- Record final video demo
+Plan capsule content layout
+
+Decide on data structure (Capsule objects, categories)
+
+Day 3
+
+Initialize React app (Vite or CRA)
+
+Set up basic folder structure (/components, /pages, /assets)
+
+Push setup to GitHub with project tracking
+
+Day 4
+
+Build Homepage and Capsule List Page
+
+Display capsule topics like Mutual Funds, FDs, etc.
+
+Implement routing with React Router
+
+Day 5
+
+Build Capsule Detail Page (static content or local JSON)
+
+Add info cards or flashcards per topic
+
+Polish UI for responsiveness
+
+Day 6
+
+Add video/image placeholders for each capsule
+
+Add interactive learning flow (buttons, navigation)
+
+Improve overall styling
+
+Day 7
+
+Final testing + review
+
+Record final walkthrough video
+
+Submit project with GitHub link
