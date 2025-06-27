@@ -1,21 +1,18 @@
-// src/App.jsx
-import React, { useContext } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Homepage from './pages/homepage';
 import Login from './Components/login';
 import Signup from './Components/signup';
-import { AuthContext } from './Context/AuthContext';
+// import landingPage from './Components/landingPage';
 
 function App() {
-  const { user } = useContext(AuthContext);
-
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/home" element={user ? <Homepage /> : <Navigate to="/login" />} />
-        <Route path="/login" element={!user ? <Login /> : <Navigate to="/home" />} />
-        <Route path="/signup" element={!user ? <Signup /> : <Navigate to="/home" />} />
+        <Route path="/" element={<Homepage />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        {/* <Route path='/landing' element={<landingPage />} /> */}
       </Routes>
     </Router>
   );

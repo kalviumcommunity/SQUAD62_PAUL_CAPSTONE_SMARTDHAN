@@ -11,11 +11,11 @@ export const AuthProvider = ({ children }) => {
 
   const [token, setToken] = useState(() => localStorage.getItem('token') || null);
 
-  const login = (userData, token) => {
+  const login = (userData, authToken) => {
     setUser(userData);
-    setToken(token);
+    setToken(authToken);
     localStorage.setItem('user', JSON.stringify(userData));
-    localStorage.setItem('token', token);
+    localStorage.setItem('token', authToken);
   };
 
   const logout = () => {
