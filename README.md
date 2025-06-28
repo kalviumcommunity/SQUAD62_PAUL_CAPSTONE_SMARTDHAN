@@ -68,5 +68,7 @@ It delivers bite-sized learning capsules that make financial literacy simple and
 
 ---
 
+backend deployment link : https://squad62-paul-capstone-smartdhan-2.onrender.com
+
 Feel free to contribute or suggest improvements!
 
