@@ -7,6 +7,7 @@ const auth = require('../middleware/authmiddleware');
 const router = express.Router();
 
 // REGISTER (POST /api/auth/register)
+// routes/auth.js
 router.post('/register', async (req, res) => {
   try {
     const { email, password } = req.body;
@@ -21,9 +22,11 @@ router.post('/register', async (req, res) => {
 
     res.status(201).json({ message: 'User registered successfully' });
   } catch (err) {
-    res.status(500).json({ message: 'Server error' });
-  }
+  // console.error('Registration Error:', err); // <--- add this
+  res.status(500).json({ message: 'Server error' });
+}
 });
+
 
 // LOGIN (POST /api/auth/login)
 router.post('/login', async (req, res) => {
@@ -42,6 +45,7 @@ router.post('/login', async (req, res) => {
 
     res.status(200).json({ token });
   } catch (err) {
+      console.error('Register Error:', err);
     res.status(500).json({ message: 'Server error' });
   }
 });
@@ -75,6 +79,7 @@ router.put('/update', auth, async (req, res) => {
     await user.save();
     res.json({ message: 'User updated successfully' });
   } catch (err) {
+    // console.error('Registration Error:', err);
     res.status(500).json({ message: 'Server error' });
   }
 });
